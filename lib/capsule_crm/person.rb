@@ -31,6 +31,7 @@ module CapsuleCRM
     attribute :job_title
     attribute :about
     attribute :organisation_name
+    attribute :updated_on
 
     belongs_to :organization, foreign_key: :organisation_id
 
