@@ -32,6 +32,7 @@ module CapsuleCRM
     attribute :about
     attribute :organisation_name
     attribute :updated_on
+    attribute :created_on
 
     belongs_to :organization, foreign_key: :organisation_id
 
